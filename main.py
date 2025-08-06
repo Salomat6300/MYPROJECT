@@ -1,5 +1,5 @@
-from database import FaceDB
-from face_recognizer import YuzTanibOlovchi
+from deepGPUFolder.database import FaceDB
+from deepGPUFolder.face_recognizer import YuzTanibOlovchi
 
 if __name__ == "__main__":
     DB_NAME = "face_db"

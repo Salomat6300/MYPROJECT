@@ -2,7 +2,7 @@ import cv2
 import face_recognition
 import numpy as np
 from datetime import datetime
-from face_orientation import FaceOrientationDetector
+from deepGPUFolder.face_orientation import FaceOrientationDetector
 
 class YuzTanibOlovchi:
     def __init__(self, face_db):
